@@ -3,7 +3,7 @@ const assert = require('node:assert/strict');
 const { greet, createServer } = require('../src/app');
 
 test('greet returns the expected message', () => {
-  assert.equal(greet('Student'), 'Hello, Student! CI/CD deployment is working.');
+  assert.equal(greet('Student'), 'Hello, Student! CI/CD deployment is working Fine.');
 });
 
 test('health endpoint responds with ok', async () => {
