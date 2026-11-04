@@ -1,0 +1,14 @@
+{
+  "name": "cicd-github-actions-ec2-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal Node.js CI/CD demo deploying to EC2",
+  "scripts": {
+    "start": "node src/server.js",
+    "lint": "node scripts/lint.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
