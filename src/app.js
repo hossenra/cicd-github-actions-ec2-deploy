@@ -1,7 +1,7 @@
 const http = require('node:http');
 
 function greet(name = 'DevOps Students') {
-  return `Hello, ${name}! CI/CD deployment is working Fine.`;
+  return `Hello, ${name}! CI/CD deployment is working from actions automatically.`;
 }
 
 function handler(req, res) {
